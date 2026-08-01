@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #1e1e2f;
+  padding: 16px 24px;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.dashboard {
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stats-summary {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.stat-box {
+  background-color: #1e1e2f;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.bot-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.bot-card {
+  background-color: #1e1e2f;
+  padding: 16px;
+  border-radius: 8px;
+  width: 220px;
+  border-left: 4px solid #555;
+}
+
+.recent-incidents {
+  background-color: #1e1e2f;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.incident-item {
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+
+.incident-item:last-child {
+  border-bottom: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.nav-links a {
+  color: #a0a0ff;
+  text-decoration: none;
+}
+
+.log-filters {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.log-filters select,
+.log-filters input {
+  padding: 6px 10px;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e2f;
+}
+
+.logs-table th,
+.logs-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.logs-table th {
+  background-color: #262640;
+}
+
+.logs-table button {
+  padding: 6px 12px;
+  background-color: #4a4ae0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.logs-table button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.analysis-panel {
+  margin-top: 20px;
+  background-color: #1e1e2f;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.analysis-panel h2 {
+  margin-top: 0;
+}
+
+.analysis-panel ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.log-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.incident-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.incident-card {
+  background-color: #1e1e2f;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.incident-meta {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.incident-card select {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background-color: #262640;
+  color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.report-section {
+  margin-top: 24px;
+}
+
+.report-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.report-section li {
+  background-color: #1e1e2f;
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.kb-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin-bottom: 24px;
+}
+
+.kb-form input,
+.kb-form textarea {
+  padding: 8px 12px;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.kb-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.kb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.kb-card {
+  background-color: #1e1e2f;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.kb-card h3 {
+  margin: 0 0 8px;
+}
