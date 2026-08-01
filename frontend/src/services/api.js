@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://ai-production-support-dashboard.onrender.com";
 
 export async function fetchBots() {
     const response = await fetch(`${API_BASE_URL}/bots`);
